@@ -123,4 +123,87 @@ body {
     color: #919191;
     margin-top: 10px;
   }
+  main .my-resume-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .my-resume-part h1 {
+    color: #fff;
+    font-weight: 50;
+    margin-top: 200px;
+  }
+  main .my-resume-part h1 span {
+    font-weight: 900;
+  }
+  main .my-resume-part .my-resume-part-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main .my-resume-part .my-resume-part-container .my-resume-left .my-resume-block {
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 540px;
+    height: 228px;
+    background: #333333;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+  main .my-resume-part .my-resume-part-container .my-resume-left .my-resume-block p {
+    margin: 25px 0px 0px 0px;
+  }
+  main .about-me-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+  }
+  main .about-me-part img {
+    width: 601px;
+    height: 410px;
+  }
+  main .about-me-part .about-me-text-container {
+    width: 601px;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 70px 0px 70px;
+  }
+  main .about-me-part .about-me-text-container h1 {
+    color: #fff;
+    font-weight: 50;
+  }
+  main .about-me-part .about-me-text-container h1 span {
+    font-weight: 900;
+  }
+  main .about-me-part .about-me-text-container p {
+    margin: 30px 0px 0px 0px;
+  }
+  main .about-me-part .about-me-text-container .button-container {
+    display: flex;
+    margin-top: 100px;
+  }
+  main .about-me-part .about-me-text-container .button-container .btn-1 {
+    width: 117px;
+    height: 35px;
+    border-radius: 40px;
+    border: none;
+    background: #bac964;
+    color: #fff;
+    cursor: pointer;
+  }
+  main .about-me-part .about-me-text-container .button-container .btn-2 {
+    width: 170px;
+    height: 35px;
+    border-radius: 40px;
+    border: none;
+    background: #6c757d;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 3px;
+  }
 }/*# sourceMappingURL=style.css.map */
