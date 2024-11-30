@@ -286,4 +286,164 @@ body {
     border-left: 20px solid transparent;
     border-top: 20px solid #333333;
   }
+  main .my-services-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+  }
+  main .my-services-part h1 {
+    color: #fff;
+    font-weight: 50;
+  }
+  main .my-services-part h1 span {
+    font-weight: 900;
+  }
+  main .my-services-part .my-services-part-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .my-services-part .my-services-part-container .my-service-block {
+    width: 350px;
+    height: 460px;
+    background: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    margin: 50px 0px 0px 30px;
+  }
+  main .my-services-part .my-services-part-container .my-service-block .my-service-photo {
+    width: 100px;
+    height: 100px;
+    background: #bac964;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main .my-services-part .my-services-part-container .my-service-block p {
+    margin: 26px 0px 0px 0px;
+    font-size: 22px;
+    font-weight: lighter;
+  }
+  main .my-services-part .my-services-part-container .my-service-block span {
+    margin: 26px 0px 0px 0px;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: lighter;
+    line-height: 26px;
+  }
+  main .my-services-part .my-services-part-container .my-service-block .my-service-effect {
+    margin-top: 30px;
+    display: flex;
+    cursor: pointer;
+  }
+  main .my-services-part .my-services-part-container .my-service-block .my-service-effect h3 {
+    color: #bac964;
+    font-weight: lighter;
+    font-family: "Raleway", sans-serif;
+    transition: transform 0.5s ease;
+  }
+  main .my-services-part .my-services-part-container .my-service-block .my-service-effect span {
+    margin: -1px 0px 0px 7px;
+    font-weight: bolder;
+    color: #bac964;
+    transition: transform 0.5s ease;
+  }
+  main .my-services-part .my-services-part-container .my-service-block .my-service-effect:hover h3 {
+    transform: translateX(-10px);
+  }
+  main .my-services-part .my-services-part-container .my-service-block .my-service-effect:hover span {
+    transform: translateX(10px);
+  }
+  main .my-services-part .my-services-part-container .my-service-block:nth-child(2) {
+    height: 410px;
+    margin: 0px 0px 0px 30px;
+  }
+  main .blog-part {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main .blog-part h1 {
+    color: #fff;
+    font-weight: 50;
+  }
+  main .blog-part h1 span {
+    font-weight: 900;
+  }
+  main .blog-part .blog-post-container {
+    display: flex;
+    align-items: center;
+  }
+  main .blog-part .blog-post-container .blog-post-block {
+    width: 350px;
+    height: 522px;
+    background: #333333;
+    margin-left: 30px;
+    margin-top: 50px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  main .blog-part .blog-post-container .blog-post-block img {
+    width: 100%;
+    height: 50%;
+  }
+  main .blog-part .blog-post-container .blog-post-block .blog-post-block-entry-text {
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main .blog-part .blog-post-container .blog-post-block .blog-post-block-entry-text p {
+    margin: 0px 0px 0px 20px;
+    font-size: 1.3rem;
+    font-family: "Raleway", sans-serif;
+  }
+  main .blog-part .blog-post-container .blog-post-block .blog-post-block-entry-text span {
+    color: rgba(255, 255, 255, 0.4);
+    line-height: 27px;
+    margin: 15px 0px 0px 20px;
+    font-size: 0.95rem;
+  }
+  main .blog-part .blog-post-container .blog-post-block .blog-post-block-entry-text .blog-post-effect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 80px 0px 0px;
+  }
+  main .blog-part .blog-post-container .blog-post-block .blog-post-block-entry-text .blog-post-effect svg {
+    fill: rgba(255, 255, 255, 0.4);
+    margin-top: 15px;
+  }
+  main .blog-part .blog-post-container .blog-post-block .blog-post-block-entry-text .blog-post-effect span {
+    margin-left: 5px;
+  }
+  main .blog-part .blog-post-container .blog-post-block .blog-post-block-entry-text .blog-post-effect .calendar-text, main .blog-part .blog-post-container .blog-post-block .blog-post-block-entry-text .blog-post-effect .comment-text {
+    cursor: pointer;
+  }
+  main .blog-part .blog-post-container .blog-post-block .blog-post-block-entry-text .blog-post-effect .calendar-text svg, main .blog-part .blog-post-container .blog-post-block .blog-post-block-entry-text .blog-post-effect .comment-text svg {
+    transition: fill 0.5s ease;
+    fill: rgba(255, 255, 255, 0.4);
+  }
+  main .blog-part .blog-post-container .blog-post-block .blog-post-block-entry-text .blog-post-effect .calendar-text span, main .blog-part .blog-post-container .blog-post-block .blog-post-block-entry-text .blog-post-effect .comment-text span {
+    transition: color 0.5s ease;
+    color: rgba(255, 255, 255, 0.4);
+  }
+  main .blog-part .blog-post-container .blog-post-block .blog-post-block-entry-text .blog-post-effect .calendar-text:hover svg, main .blog-part .blog-post-container .blog-post-block .blog-post-block-entry-text .blog-post-effect .comment-text:hover svg {
+    fill: #bac964;
+  }
+  main .blog-part .blog-post-container .blog-post-block .blog-post-block-entry-text .blog-post-effect .calendar-text:hover span, main .blog-part .blog-post-container .blog-post-block .blog-post-block-entry-text .blog-post-effect .comment-text:hover span {
+    color: #bac964;
+  }
+  main .blog-part .blog-post-container .blog-post-block:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  }
 }/*# sourceMappingURL=style.css.map */
