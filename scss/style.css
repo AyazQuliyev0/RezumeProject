@@ -446,4 +446,133 @@ body {
     transform: translateY(-5px);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
   }
+  main footer {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main footer h1 {
+    color: #fff;
+    font-weight: 50;
+  }
+  main footer h1 span {
+    font-weight: 900;
+  }
+  main footer .footer-part-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  main footer .footer-part-content .inputs-container {
+    margin-right: 120px;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  main footer .footer-part-content .inputs-container input, main footer .footer-part-content .inputs-container textarea {
+    caret-color: transparent;
+    width: 635px;
+    height: 48px;
+    background: #333333;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  main footer .footer-part-content .inputs-container .input-name {
+    margin-top: 50px;
+  }
+  main footer .footer-part-content .inputs-container textarea {
+    resize: vertical;
+    overflow: auto;
+    height: 100px;
+  }
+  main footer .footer-part-content .inputs-container input::-moz-placeholder, main footer .footer-part-content .inputs-container textarea::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 15px;
+  }
+  main footer .footer-part-content .inputs-container input::placeholder, main footer .footer-part-content .inputs-container textarea::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 15px;
+  }
+  main footer .footer-part-content .inputs-container input:focus, main footer .footer-part-content .inputs-container textarea:focus {
+    outline: none;
+    background: #454545;
+  }
+  main footer .footer-part-content .inputs-container .btn-3 {
+    width: 173px;
+    height: 52px;
+    border-radius: 40px;
+    border: none;
+    background: #bac964;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-top: 50px;
+  }
+  main footer .footer-part-content .contact-info-container {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 50px;
+  }
+  main footer .footer-part-content .contact-info-container div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+  }
+  main footer .footer-part-content .contact-info-container div p {
+    margin: 0;
+    font-size: 12px;
+    color: #2c3e50;
+  }
+  main footer .footer-part-content .contact-info-container div span {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-top: 13px;
+  }
+  main footer .footer-part-content .contact-info-container .email-info {
+    margin-top: 50px;
+  }
+  main footer .finish-text-container {
+    margin: 50px 0px 0px 0px;
+  }
+  main footer .finish-text-container .finish-text {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    letter-spacing: 0.5px;
+  }
+  main footer .finish-text-container .finish-text span {
+    color: #bac964;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: lighter;
+  }
+  main footer .svg-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+  }
+  main footer .svg-container div {
+    width: 60px;
+    height: 60px;
+    background: #333333;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-top: -70px;
+  }
 }/*# sourceMappingURL=style.css.map */
